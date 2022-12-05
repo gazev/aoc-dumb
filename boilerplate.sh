@@ -10,5 +10,5 @@ cookies = {
 }
 
 if __name__ == '__main__':
-    raw_data = requests.get("https://adventofcode.com/2022/day/$1/input")
+    raw_data = requests.get("https://adventofcode.com/2022/day/$1/input", cookies=cookies)
 EOF
